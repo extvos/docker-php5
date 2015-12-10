@@ -1,7 +1,5 @@
 FROM extvos/centos
-
 MAINTAINER  "Mingcai SHEN <archsh@gmail.com>"
-
 ENV PHP_VERSION 5.6.12
 
 RUN rpm -Uvh http://mirror.webtatic.com/yum/el6/latest.rpm \
